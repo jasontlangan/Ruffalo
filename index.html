@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css" />
+    <script src="test.js"></script>
+  </head>
+  <body>
+    <h1>Expense Tracker</h1>
+    <h2>Add a New Item:</h2>
+    <div class="top-div">
+      <input
+        type="text"
+        class="name"
+        id="row1"
+        value="Where was the expense made?"
+      />
+    </div>
+    <input type="date" class="second-row" id="row2" value="mm/dd/yyyy" />
+    <input type="text" class="second-row" id="row2And3" value="Amount" />
+    <div id="buttonWrapper">
+      <input
+        type="button"
+        id="addExpense"
+        onClick="addToList()"
+        value="Add Expense"
+      />
+    </div>
+    <div class="table-wrapper" id="tab">
+      <table
+        id="list"
+        cellspacing="120px"
+        table-space="relative"
+        table
+        width="100%"
+        text-align="center"
+      >
+        <thead>
+          <tr>
+            <td>Name</td>
+            <td>Date</td>
+            <td>Amount</td>
+          </tr>
+        </thead>
+
+        <tbody></tbody>
+      </table>
+      <img id="image" src="Mark R.jpg" />
+    </div>
+  </body>
+</html>

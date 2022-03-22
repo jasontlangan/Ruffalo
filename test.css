@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: green;
+}
+
+
+.div {
+    position: relative;
+}
+
+.name {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    margin: 5px;
+ }
+ 
+ .second-row {
+     width: 46%;
+     margin-left: 8%;
+     margin-right: 8%;
+     padding: 4px;
+     margin: 4px;
+ }
+
+ #image {
+     display: none;
+ }
+
+@media (min-width: 769px) {#buttonWrapper {
+    margin-left: 44%;
+    margin-right: 46%;
+    padding: 4px;
+}
+}
+
+@media (max-width: 790px) {#row2 {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    margin: 5px;
+}
+}
+@media (max-width: 790px) {#row2And3 {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    margin: 5px;
+}
+}
+
+@media (max-width: 769px) {#buttonWrapper {
+    margin-left: 44%;
+    margin-right: 46%;
+    padding: 4px;
+}
+}
